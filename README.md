@@ -1,32 +1,47 @@
 # Dengue Prediction Interface 🌡️
 
-A modern, AI-powered web interface for predicting dengue outbreak risks using meteorological data. Built with cutting-edge web technologies and integrated with Hugging Face's machine learning models.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dengue-risk-analyzer.vercel.app/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-![Preview](https://via.placeholder.com/800x500.png?text=Dengue+Prediction+Interface+Preview) <!-- Add your screenshot here -->
+A modern AI-powered interface for predicting dengue outbreak risks using weather parameters. Features a glass-morphism design and direct integration with Hugging Face's ML models.
 
-## Features ✨
+![Preview](./ss.png)
 
-- **Modern Glass Morphism UI**  
-  Sleek design with frosted glass effects and dynamic shadows
+## Key Features ✨
+
+- **Neural Design Aesthetic**  
+  Cyberpunk-inspired UI with dynamic glass effects
 - **Real-time Predictions**  
-  Integrated with Hugging Face's disease prediction model
-- **Responsive Design**  
-  Perfectly adapted for all screen sizes
-- **Interactive Elements**  
-  Hover animations and typewriter-effect descriptions
-- **Easy Deployment**  
-  One-click Vercel deployment configuration
+  Integrated with Hugging Face disease prediction model
+- **Responsive Layout**  
+  Optimized for desktop and mobile devices
+- **Typewriter Animation**  
+  Dynamic text effects for model description
 
-## Technologies Used 🛠️
+## Tech Stack 🛠️
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 
-## Installation 💻
+## Live Deployment 🚀
 
-1. Clone the repository:
+**Experience the interface:**  
+[![Vercel Deployment](https://img.shields.io/badge/Visit_Site-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dengue-risk-analyzer.vercel.app/)
+
+<a href="https://dengue-risk-analyzer.vercel.app/">
+  <img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" alt="Vercel Logo" width="40" height="40">
+</a>
+
+## Development Setup 💻
+
 ```bash
-git clone https://github.com/your-username/dengue-predictor.git
+# Clone repository
+git clone https://github.com/RyanSantoshJoseph/Dengue-Risk-Analyzer.git
+
+# Navigate to project
+cd Dengue-Risk-Analyzer
+
+# Launch local server (Python 3)
+python3 -m http.server 8000
